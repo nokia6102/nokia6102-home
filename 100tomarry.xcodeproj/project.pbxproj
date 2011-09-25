@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBDAC549142F8E6C006EDADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC548142F8E6C006EDADB /* UIKit.framework */; };
+		DBDAC54B142F8E6C006EDADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC54A142F8E6C006EDADB /* Foundation.framework */; };
+		DBDAC54D142F8E6C006EDADB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC54C142F8E6C006EDADB /* CoreGraphics.framework */; };
+		DBDAC553142F8E6C006EDADB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC551142F8E6C006EDADB /* InfoPlist.strings */; };
+		DBDAC555142F8E6C006EDADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC554142F8E6C006EDADB /* main.m */; };
+		DBDAC559142F8E6C006EDADB /* _00tomarryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC558142F8E6C006EDADB /* _00tomarryAppDelegate.m */; };
+		DBDAC55C142F8E6C006EDADB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC55A142F8E6C006EDADB /* MainWindow.xib */; };
+		DBDAC55F142F8E6C006EDADB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC55E142F8E6C006EDADB /* DetailViewController.m */; };
+		DBDAC562142F8E6C006EDADB /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC560142F8E6C006EDADB /* DetailView.xib */; };
+		DBDAC565142F8E6C006EDADB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC564142F8E6C006EDADB /* RootViewController.m */; };
+		DBDAC56D142F8E6D006EDADB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC56C142F8E6D006EDADB /* SenTestingKit.framework */; };
+		DBDAC56E142F8E6D006EDADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC548142F8E6C006EDADB /* UIKit.framework */; };
+		DBDAC56F142F8E6D006EDADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC54A142F8E6C006EDADB /* Foundation.framework */; };
+		DBDAC570142F8E6D006EDADB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC54C142F8E6C006EDADB /* CoreGraphics.framework */; };
+		DBDAC578142F8E6D006EDADB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC576142F8E6D006EDADB /* InfoPlist.strings */; };
+		DBDAC57A142F8E6D006EDADB /* _00tomarryTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC579142F8E6D006EDADB /* _00tomarryTests.h */; };
+		DBDAC57C142F8E6D006EDADB /* _00tomarryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC57B142F8E6D006EDADB /* _00tomarryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBDAC571142F8E6D006EDADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBDAC53B142F8E6C006EDADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBDAC543142F8E6C006EDADB;
+			remoteInfo = 100tomarry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBDAC544142F8E6C006EDADB /* 100tomarry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100tomarry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDAC548142F8E6C006EDADB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBDAC54A142F8E6C006EDADB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBDAC54C142F8E6C006EDADB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBDAC550142F8E6C006EDADB /* 100tomarry-Info.plist */ = {isa = PBXFileReference; path = "100tomarry-Info.plist"; sourceTree = "<group>"; };
+		DBDAC552142F8E6C006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBDAC554142F8E6C006EDADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBDAC556142F8E6C006EDADB /* 100tomarry-Prefix.pch */ = {isa = PBXFileReference; path = "100tomarry-Prefix.pch"; sourceTree = "<group>"; };
+		DBDAC557142F8E6C006EDADB /* _00tomarryAppDelegate.h */ = {isa = PBXFileReference; path = _00tomarryAppDelegate.h; sourceTree = "<group>"; };
+		DBDAC558142F8E6C006EDADB /* _00tomarryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _00tomarryAppDelegate.m; sourceTree = "<group>"; };
+		DBDAC55B142F8E6C006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DBDAC55D142F8E6C006EDADB /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		DBDAC55E142F8E6C006EDADB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DBDAC561142F8E6C006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		DBDAC563142F8E6C006EDADB /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		DBDAC564142F8E6C006EDADB /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DBDAC56B142F8E6D006EDADB /* 100tomarryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 100tomarryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDAC56C142F8E6D006EDADB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DBDAC575142F8E6D006EDADB /* 100tomarryTests-Info.plist */ = {isa = PBXFileReference; path = "100tomarryTests-Info.plist"; sourceTree = "<group>"; };
+		DBDAC577142F8E6D006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBDAC579142F8E6D006EDADB /* _00tomarryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _00tomarryTests.h; sourceTree = "<group>"; };
+		DBDAC57B142F8E6D006EDADB /* _00tomarryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _00tomarryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBDAC541142F8E6C006EDADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC549142F8E6C006EDADB /* UIKit.framework in Frameworks */,
+				DBDAC54B142F8E6C006EDADB /* Foundation.framework in Frameworks */,
+				DBDAC54D142F8E6C006EDADB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDAC567142F8E6D006EDADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC56D142F8E6D006EDADB /* SenTestingKit.framework in Frameworks */,
+				DBDAC56E142F8E6D006EDADB /* UIKit.framework in Frameworks */,
+				DBDAC56F142F8E6D006EDADB /* Foundation.framework in Frameworks */,
+				DBDAC570142F8E6D006EDADB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBDAC539142F8E6C006EDADB = {
+			isa = PBXGroup;
+			children = (
+				DBDAC54E142F8E6C006EDADB /* 100tomarry */,
+				DBDAC573142F8E6D006EDADB /* 100tomarryTests */,
+				DBDAC547142F8E6C006EDADB /* Frameworks */,
+				DBDAC545142F8E6C006EDADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBDAC545142F8E6C006EDADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC544142F8E6C006EDADB /* 100tomarry.app */,
+				DBDAC56B142F8E6D006EDADB /* 100tomarryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBDAC547142F8E6C006EDADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC548142F8E6C006EDADB /* UIKit.framework */,
+				DBDAC54A142F8E6C006EDADB /* Foundation.framework */,
+				DBDAC54C142F8E6C006EDADB /* CoreGraphics.framework */,
+				DBDAC56C142F8E6D006EDADB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBDAC54E142F8E6C006EDADB /* 100tomarry */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC557142F8E6C006EDADB /* _00tomarryAppDelegate.h */,
+				DBDAC558142F8E6C006EDADB /* _00tomarryAppDelegate.m */,
+				DBDAC55A142F8E6C006EDADB /* MainWindow.xib */,
+				DBDAC55D142F8E6C006EDADB /* DetailViewController.h */,
+				DBDAC55E142F8E6C006EDADB /* DetailViewController.m */,
+				DBDAC560142F8E6C006EDADB /* DetailView.xib */,
+				DBDAC563142F8E6C006EDADB /* RootViewController.h */,
+				DBDAC564142F8E6C006EDADB /* RootViewController.m */,
+				DBDAC54F142F8E6C006EDADB /* Supporting Files */,
+			);
+			path = 100tomarry;
+			sourceTree = "<group>";
+		};
+		DBDAC54F142F8E6C006EDADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC550142F8E6C006EDADB /* 100tomarry-Info.plist */,
+				DBDAC551142F8E6C006EDADB /* InfoPlist.strings */,
+				DBDAC554142F8E6C006EDADB /* main.m */,
+				DBDAC556142F8E6C006EDADB /* 100tomarry-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBDAC573142F8E6D006EDADB /* 100tomarryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC579142F8E6D006EDADB /* _00tomarryTests.h */,
+				DBDAC57B142F8E6D006EDADB /* _00tomarryTests.m */,
+				DBDAC574142F8E6D006EDADB /* Supporting Files */,
+			);
+			path = 100tomarryTests;
+			sourceTree = "<group>";
+		};
+		DBDAC574142F8E6D006EDADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC575142F8E6D006EDADB /* 100tomarryTests-Info.plist */,
+				DBDAC576142F8E6D006EDADB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBDAC543142F8E6C006EDADB /* 100tomarry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDAC57F142F8E6D006EDADB /* Build configuration list for PBXNativeTarget "100tomarry" */;
+			buildPhases = (
+				DBDAC540142F8E6C006EDADB /* Sources */,
+				DBDAC541142F8E6C006EDADB /* Frameworks */,
+				DBDAC542142F8E6C006EDADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 100tomarry;
+			productName = 100tomarry;
+			productReference = DBDAC544142F8E6C006EDADB /* 100tomarry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBDAC56A142F8E6D006EDADB /* 100tomarryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDAC582142F8E6D006EDADB /* Build configuration list for PBXNativeTarget "100tomarryTests" */;
+			buildPhases = (
+				DBDAC566142F8E6D006EDADB /* Sources */,
+				DBDAC567142F8E6D006EDADB /* Frameworks */,
+				DBDAC568142F8E6D006EDADB /* Resources */,
+				DBDAC569142F8E6D006EDADB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBDAC572142F8E6D006EDADB /* PBXTargetDependency */,
+			);
+			name = 100tomarryTests;
+			productName = 100tomarryTests;
+			productReference = DBDAC56B142F8E6D006EDADB /* 100tomarryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBDAC53B142F8E6C006EDADB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DBDAC53E142F8E6C006EDADB /* Build configuration list for PBXProject "100tomarry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBDAC539142F8E6C006EDADB;
+			productRefGroup = DBDAC545142F8E6C006EDADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBDAC543142F8E6C006EDADB /* 100tomarry */,
+				DBDAC56A142F8E6D006EDADB /* 100tomarryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBDAC542142F8E6C006EDADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC553142F8E6C006EDADB /* InfoPlist.strings in Resources */,
+				DBDAC55C142F8E6C006EDADB /* MainWindow.xib in Resources */,
+				DBDAC562142F8E6C006EDADB /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDAC568142F8E6D006EDADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC578142F8E6D006EDADB /* InfoPlist.strings in Resources */,
+				DBDAC57A142F8E6D006EDADB /* _00tomarryTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBDAC569142F8E6D006EDADB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBDAC540142F8E6C006EDADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC555142F8E6C006EDADB /* main.m in Sources */,
+				DBDAC559142F8E6C006EDADB /* _00tomarryAppDelegate.m in Sources */,
+				DBDAC55F142F8E6C006EDADB /* DetailViewController.m in Sources */,
+				DBDAC565142F8E6C006EDADB /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDAC566142F8E6D006EDADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC57C142F8E6D006EDADB /* _00tomarryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBDAC572142F8E6D006EDADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBDAC543142F8E6C006EDADB /* 100tomarry */;
+			targetProxy = DBDAC571142F8E6D006EDADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBDAC551142F8E6C006EDADB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC552142F8E6C006EDADB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBDAC55A142F8E6C006EDADB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC55B142F8E6C006EDADB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DBDAC560142F8E6C006EDADB /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC561142F8E6C006EDADB /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+		DBDAC576142F8E6D006EDADB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC577142F8E6D006EDADB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBDAC57D142F8E6D006EDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DBDAC57E142F8E6D006EDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBDAC580142F8E6D006EDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "100tomarry/100tomarry-Prefix.pch";
+				INFOPLIST_FILE = "100tomarry/100tomarry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBDAC581142F8E6D006EDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "100tomarry/100tomarry-Prefix.pch";
+				INFOPLIST_FILE = "100tomarry/100tomarry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DBDAC583142F8E6D006EDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/100tomarry.app/100tomarry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "100tomarry/100tomarry-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "100tomarryTests/100tomarryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DBDAC584142F8E6D006EDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/100tomarry.app/100tomarry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "100tomarry/100tomarry-Prefix.pch";
+				INFOPLIST_FILE = "100tomarryTests/100tomarryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBDAC53E142F8E6C006EDADB /* Build configuration list for PBXProject "100tomarry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDAC57D142F8E6D006EDADB /* Debug */,
+				DBDAC57E142F8E6D006EDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBDAC57F142F8E6D006EDADB /* Build configuration list for PBXNativeTarget "100tomarry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDAC580142F8E6D006EDADB /* Debug */,
+				DBDAC581142F8E6D006EDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBDAC582142F8E6D006EDADB /* Build configuration list for PBXNativeTarget "100tomarryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDAC583142F8E6D006EDADB /* Debug */,
+				DBDAC584142F8E6D006EDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBDAC53B142F8E6C006EDADB /* Project object */;
+}
