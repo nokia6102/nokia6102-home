@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBDAC59B142F928F006EDADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC59A142F928F006EDADB /* UIKit.framework */; };
+		DBDAC59D142F928F006EDADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC59C142F928F006EDADB /* Foundation.framework */; };
+		DBDAC59F142F928F006EDADB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC59E142F928F006EDADB /* CoreGraphics.framework */; };
+		DBDAC5A5142F928F006EDADB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC5A3142F928F006EDADB /* InfoPlist.strings */; };
+		DBDAC5A7142F928F006EDADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC5A6142F928F006EDADB /* main.m */; };
+		DBDAC5AB142F928F006EDADB /* mmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC5AA142F928F006EDADB /* mmAppDelegate.m */; };
+		DBDAC5AF142F928F006EDADB /* mmAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC5AE142F928F006EDADB /* mmAppDelegate_iPhone.m */; };
+		DBDAC5B2142F928F006EDADB /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC5B0142F928F006EDADB /* MainWindow_iPhone.xib */; };
+		DBDAC5B6142F928F006EDADB /* mmAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC5B5142F928F006EDADB /* mmAppDelegate_iPad.m */; };
+		DBDAC5B9142F928F006EDADB /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC5B7142F928F006EDADB /* MainWindow_iPad.xib */; };
+		DBDAC5C1142F928F006EDADB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC5C0142F928F006EDADB /* SenTestingKit.framework */; };
+		DBDAC5C2142F928F006EDADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC59A142F928F006EDADB /* UIKit.framework */; };
+		DBDAC5C3142F928F006EDADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC59C142F928F006EDADB /* Foundation.framework */; };
+		DBDAC5C4142F928F006EDADB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDAC59E142F928F006EDADB /* CoreGraphics.framework */; };
+		DBDAC5CC142F928F006EDADB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC5CA142F928F006EDADB /* InfoPlist.strings */; };
+		DBDAC5CE142F928F006EDADB /* mmTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DBDAC5CD142F928F006EDADB /* mmTests.h */; };
+		DBDAC5D0142F928F006EDADB /* mmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDAC5CF142F928F006EDADB /* mmTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBDAC5C5142F928F006EDADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBDAC58D142F928F006EDADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBDAC595142F928F006EDADB;
+			remoteInfo = mm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBDAC596142F928F006EDADB /* mm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDAC59A142F928F006EDADB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBDAC59C142F928F006EDADB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBDAC59E142F928F006EDADB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBDAC5A2142F928F006EDADB /* mm-Info.plist */ = {isa = PBXFileReference; path = "mm-Info.plist"; sourceTree = "<group>"; };
+		DBDAC5A4142F928F006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBDAC5A6142F928F006EDADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBDAC5A8142F928F006EDADB /* mm-Prefix.pch */ = {isa = PBXFileReference; path = "mm-Prefix.pch"; sourceTree = "<group>"; };
+		DBDAC5A9142F928F006EDADB /* mmAppDelegate.h */ = {isa = PBXFileReference; path = mmAppDelegate.h; sourceTree = "<group>"; };
+		DBDAC5AA142F928F006EDADB /* mmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mmAppDelegate.m; sourceTree = "<group>"; };
+		DBDAC5AD142F928F006EDADB /* mmAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = mmAppDelegate_iPhone.h; path = iPhone/mmAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		DBDAC5AE142F928F006EDADB /* mmAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = mmAppDelegate_iPhone.m; path = iPhone/mmAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		DBDAC5B1142F928F006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		DBDAC5B4142F928F006EDADB /* mmAppDelegate_iPad.h */ = {isa = PBXFileReference; name = mmAppDelegate_iPad.h; path = iPad/mmAppDelegate_iPad.h; sourceTree = "<group>"; };
+		DBDAC5B5142F928F006EDADB /* mmAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = mmAppDelegate_iPad.m; path = iPad/mmAppDelegate_iPad.m; sourceTree = "<group>"; };
+		DBDAC5B8142F928F006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		DBDAC5BF142F928F006EDADB /* mmTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDAC5C0142F928F006EDADB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DBDAC5C9142F928F006EDADB /* mmTests-Info.plist */ = {isa = PBXFileReference; path = "mmTests-Info.plist"; sourceTree = "<group>"; };
+		DBDAC5CB142F928F006EDADB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBDAC5CD142F928F006EDADB /* mmTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mmTests.h; sourceTree = "<group>"; };
+		DBDAC5CF142F928F006EDADB /* mmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mmTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBDAC593142F928F006EDADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC59B142F928F006EDADB /* UIKit.framework in Frameworks */,
+				DBDAC59D142F928F006EDADB /* Foundation.framework in Frameworks */,
+				DBDAC59F142F928F006EDADB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDAC5BB142F928F006EDADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC5C1142F928F006EDADB /* SenTestingKit.framework in Frameworks */,
+				DBDAC5C2142F928F006EDADB /* UIKit.framework in Frameworks */,
+				DBDAC5C3142F928F006EDADB /* Foundation.framework in Frameworks */,
+				DBDAC5C4142F928F006EDADB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBDAC58B142F928F006EDADB = {
+			isa = PBXGroup;
+			children = (
+				DBDAC5A0142F928F006EDADB /* mm */,
+				DBDAC5C7142F928F006EDADB /* mmTests */,
+				DBDAC599142F928F006EDADB /* Frameworks */,
+				DBDAC597142F928F006EDADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBDAC597142F928F006EDADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC596142F928F006EDADB /* mm.app */,
+				DBDAC5BF142F928F006EDADB /* mmTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBDAC599142F928F006EDADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC59A142F928F006EDADB /* UIKit.framework */,
+				DBDAC59C142F928F006EDADB /* Foundation.framework */,
+				DBDAC59E142F928F006EDADB /* CoreGraphics.framework */,
+				DBDAC5C0142F928F006EDADB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBDAC5A0142F928F006EDADB /* mm */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC5A9142F928F006EDADB /* mmAppDelegate.h */,
+				DBDAC5AA142F928F006EDADB /* mmAppDelegate.m */,
+				DBDAC5AC142F928F006EDADB /* iPhone */,
+				DBDAC5B3142F928F006EDADB /* iPad */,
+				DBDAC5A1142F928F006EDADB /* Supporting Files */,
+			);
+			path = mm;
+			sourceTree = "<group>";
+		};
+		DBDAC5A1142F928F006EDADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC5A2142F928F006EDADB /* mm-Info.plist */,
+				DBDAC5A3142F928F006EDADB /* InfoPlist.strings */,
+				DBDAC5A6142F928F006EDADB /* main.m */,
+				DBDAC5A8142F928F006EDADB /* mm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBDAC5AC142F928F006EDADB /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC5AD142F928F006EDADB /* mmAppDelegate_iPhone.h */,
+				DBDAC5AE142F928F006EDADB /* mmAppDelegate_iPhone.m */,
+				DBDAC5B0142F928F006EDADB /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		DBDAC5B3142F928F006EDADB /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC5B4142F928F006EDADB /* mmAppDelegate_iPad.h */,
+				DBDAC5B5142F928F006EDADB /* mmAppDelegate_iPad.m */,
+				DBDAC5B7142F928F006EDADB /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		DBDAC5C7142F928F006EDADB /* mmTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC5CD142F928F006EDADB /* mmTests.h */,
+				DBDAC5CF142F928F006EDADB /* mmTests.m */,
+				DBDAC5C8142F928F006EDADB /* Supporting Files */,
+			);
+			path = mmTests;
+			sourceTree = "<group>";
+		};
+		DBDAC5C8142F928F006EDADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBDAC5C9142F928F006EDADB /* mmTests-Info.plist */,
+				DBDAC5CA142F928F006EDADB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBDAC595142F928F006EDADB /* mm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDAC5D3142F928F006EDADB /* Build configuration list for PBXNativeTarget "mm" */;
+			buildPhases = (
+				DBDAC592142F928F006EDADB /* Sources */,
+				DBDAC593142F928F006EDADB /* Frameworks */,
+				DBDAC594142F928F006EDADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mm;
+			productName = mm;
+			productReference = DBDAC596142F928F006EDADB /* mm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBDAC5BE142F928F006EDADB /* mmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDAC5D6142F928F006EDADB /* Build configuration list for PBXNativeTarget "mmTests" */;
+			buildPhases = (
+				DBDAC5BA142F928F006EDADB /* Sources */,
+				DBDAC5BB142F928F006EDADB /* Frameworks */,
+				DBDAC5BC142F928F006EDADB /* Resources */,
+				DBDAC5BD142F928F006EDADB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBDAC5C6142F928F006EDADB /* PBXTargetDependency */,
+			);
+			name = mmTests;
+			productName = mmTests;
+			productReference = DBDAC5BF142F928F006EDADB /* mmTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBDAC58D142F928F006EDADB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DBDAC590142F928F006EDADB /* Build configuration list for PBXProject "mm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBDAC58B142F928F006EDADB;
+			productRefGroup = DBDAC597142F928F006EDADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBDAC595142F928F006EDADB /* mm */,
+				DBDAC5BE142F928F006EDADB /* mmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBDAC594142F928F006EDADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC5A5142F928F006EDADB /* InfoPlist.strings in Resources */,
+				DBDAC5B2142F928F006EDADB /* MainWindow_iPhone.xib in Resources */,
+				DBDAC5B9142F928F006EDADB /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDAC5BC142F928F006EDADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC5CC142F928F006EDADB /* InfoPlist.strings in Resources */,
+				DBDAC5CE142F928F006EDADB /* mmTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBDAC5BD142F928F006EDADB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBDAC592142F928F006EDADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC5A7142F928F006EDADB /* main.m in Sources */,
+				DBDAC5AB142F928F006EDADB /* mmAppDelegate.m in Sources */,
+				DBDAC5AF142F928F006EDADB /* mmAppDelegate_iPhone.m in Sources */,
+				DBDAC5B6142F928F006EDADB /* mmAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDAC5BA142F928F006EDADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC5D0142F928F006EDADB /* mmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBDAC5C6142F928F006EDADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBDAC595142F928F006EDADB /* mm */;
+			targetProxy = DBDAC5C5142F928F006EDADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBDAC5A3142F928F006EDADB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC5A4142F928F006EDADB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBDAC5B0142F928F006EDADB /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC5B1142F928F006EDADB /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DBDAC5B7142F928F006EDADB /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC5B8142F928F006EDADB /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		DBDAC5CA142F928F006EDADB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDAC5CB142F928F006EDADB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBDAC5D1142F928F006EDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBDAC5D2142F928F006EDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBDAC5D4142F928F006EDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mm/mm-Prefix.pch";
+				INFOPLIST_FILE = "mm/mm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBDAC5D5142F928F006EDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mm/mm-Prefix.pch";
+				INFOPLIST_FILE = "mm/mm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DBDAC5D7142F928F006EDADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mm.app/mm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mm/mm-Prefix.pch";
+				INFOPLIST_FILE = "mmTests/mmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DBDAC5D8142F928F006EDADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mm.app/mm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mm/mm-Prefix.pch";
+				INFOPLIST_FILE = "mmTests/mmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBDAC590142F928F006EDADB /* Build configuration list for PBXProject "mm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDAC5D1142F928F006EDADB /* Debug */,
+				DBDAC5D2142F928F006EDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBDAC5D3142F928F006EDADB /* Build configuration list for PBXNativeTarget "mm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDAC5D4142F928F006EDADB /* Debug */,
+				DBDAC5D5142F928F006EDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBDAC5D6142F928F006EDADB /* Build configuration list for PBXNativeTarget "mmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDAC5D7142F928F006EDADB /* Debug */,
+				DBDAC5D8142F928F006EDADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBDAC58D142F928F006EDADB /* Project object */;
+}
